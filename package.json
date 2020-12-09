@@ -1,0 +1,36 @@
+{
+  "name": "strapi-provider-upload-aws-s3cdn",
+  "version": "1.0.0",
+  "description": "AWS S3 provider for strapi upload with CDN",
+  "keywords": [
+    "upload",
+    "aws",
+    "s3",
+    "cdn",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "aws-sdk": "2.785.0",
+    "lodash": "4.17.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravtiwari750/strapi-provider-upload-aws-s3cdn.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Gaurav Tiwari",
+    "email": "gauravtiwari750@gmail.com"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
